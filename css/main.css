@@ -1,0 +1,20 @@
+body {
+    background-color: #06E68A;
+}
+.container {
+    display: inline-block;
+    width: 1200px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color: yellow;
+}
+    .container > .left {
+        display: inline-block;
+        background-color: violet;
+    }
+    .container > .right {
+        display: inline-block;
+        background-color: teal;
+    }
