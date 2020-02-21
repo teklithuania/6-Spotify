@@ -63,6 +63,7 @@ form > .form-row :last-of-type {
         padding-top: 10px;
         padding-top: 10px;
         background-color: transparent;
+        color: #FFF;
         border: none;
         border-bottom: 2px solid #FFF;
     }
