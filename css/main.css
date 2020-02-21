@@ -11,100 +11,10 @@ li::before {
   }
 .container {
     display: inline-block;
-    width: 1200px;
+    width: 1000px;
     position: absolute;
     top: 50%;
     left:50%;
     transform: translate(-50%, -50%);
     background-color: yellow;
 }
-    .container > .left {
-        display: inline-block;
-        float: left;
-        width: 45%;
-        font-weight: bold;
-        /* position: unset; */
-        background-color: violet;
-    }
-        .container > .left > h1 {
-            display: inline-block;
-            width: 100%;
-            padding-top: 50px;
-            padding-bottom: 5px;
-            text-align: center;
-            color: #ffffff;
-        }
-        .container > .left > .premium {
-            display: inline-block;
-            width: 100%;
-            /* padding-bottom: 15px; */
-            font-size: 28px;
-            text-align: center;
-            color: #ffffff;
-        }
-        .container > .left > .dollar {
-            display: inline-block;
-            width: 41%;
-            font-size: 28px;
-            line-height: 35px;
-            text-align: right;
-            color: #ffffff;
-        }
-        .container > .left > .dolar {
-            display: inline-block;
-            width: 58%;
-            font-size: 18px;
-            line-height: 35px;
-            margin-top: 4px;
-            margin-bottom: -2px;
-            text-align: left;
-            color: #ffffff;
-        }
-        .container > .left > .bullets {
-            display: inline-block;
-            width: 66%;
-            margin-left: 34%;
-            line-height: 40px;
-            list-style: none;
-            text-align: justify;
-            color: #ffffff;
-        }
-        .container > .left > .day {
-            display: inline-block;
-            width: 70%;
-            margin-left: 30%;
-            font-weight: 2;
-            font-size: 15px;
-            line-height: 18px;
-            padding-top: 5px;
-            text-align: justify;
-            color: #ffffff;
-        }
-        .container > .left > a {
-            display: inline-block;
-            padding: 5px;
-            font-size: 15px;
-            line-height: 18px;
-            text-decoration: none;
-            color: #ffffff;
-        }
-        .container > .left > .central {
-            display: inline-block;
-            width: calc((100% - 269px) / 2);
-        }
-        .container > .left > span {
-            display: inline-block;
-            padding: 5px;
-            font-size: 15px;
-            line-height: 18px;
-            font-weight: lighter;
-
-            color: #ffffff;
-        }
-    .container > .right {
-        display: inline-block;
-        float: left;
-        width: 55%;
-        /* position: unset; */
-        background-color: teal;
-    }

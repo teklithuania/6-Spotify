@@ -1,0 +1,7 @@
+.container > .right {
+    display: inline-block;
+    float: left;
+    width: 55%;
+    /* position: unset; */
+    background-color: teal;
+}
