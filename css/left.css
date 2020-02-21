@@ -5,9 +5,11 @@
     font-weight: bold;
     background-image: url(..//img/green-powerpoint-slide-template.jpg);
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
-    /* position: unset; */
+    position: relative;
     background-color: violet;
 }
     .container > .left > h1 {
@@ -21,7 +23,6 @@
     .container > .left > .premium {
         display: inline-block;
         width: 100%;
-        /* padding-bottom: 15px; */
         font-size: 28px;
         text-align: center;
         color: #ffffff;
@@ -73,8 +74,9 @@
         color: #ffffff;
     }
     .container > .left > .central {
-        display: inline-block;
-        width: calc((100% - 269px) / 2);
+        /* display: inline-block;
+        width: calc((100% - 269px) / 2); */
+        margin-left: 130px;
     }
     .container > .left > span {
         display: inline-block;

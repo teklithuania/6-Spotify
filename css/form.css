@@ -1,0 +1,68 @@
+form {
+    display: inline-block;
+    width: 100%;
+}
+form > .form-row :last-of-type {
+    margin-bottom: 0;
+}
+    form > a {
+        display: inline-block;
+        padding-top: 5px;
+        font-size: 20px;
+        line-height: 35px;
+        padding-right: 20px;
+        padding-bottom: 40px;
+        text-decoration: none;
+        color: #748F97;
+    }
+    form > span {
+        display: inline-block;
+        padding: 5px;
+        font-size: 25px;
+        line-height: 35px;
+        padding-left: 20px;
+        border-left: 2px solid #1FC05F;
+        color: #fff;
+    }
+    form > .checkbox > input {
+        display: inline-block;
+        height: 30px;
+    }
+    form > .checkbox > label {
+        display: inline-block;
+        padding-left: 20px;
+        line-height: 30px;
+        text-decoration: none;
+        font-weight: lighter;
+        color: #fff;
+    }
+    form > .checkbox > a {
+        display: inline-block;
+        padding-left: 5px;
+        line-height: 30px;
+        margin-top: -2px;
+        color: #fff;
+        font-weight: bolder;
+    }
+    form > .form-row > label {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 5px;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 20px;
+        padding-top: 10px;
+        color: #fff;
+    }
+    form > .form-row > input {
+        display: inline-block;
+        width: 100%;
+        font-size: 15px;
+        line-height: 30px;
+        padding-top: 10px;
+        padding-top: 10px;
+        background-color: transparent;
+        border: none;
+        border-bottom: 2px solid #FFF;
+    }

@@ -2,6 +2,27 @@
     display: inline-block;
     float: left;
     width: 55%;
-    /* position: unset; */
+    position: absolute;
+    background-image: url(..//img/569740.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
     background-color: teal;
+    padding: 60px;
+    
 }
+.container > .right >.logo {
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    width: 50%;
+}
+
+
+/* .container > .right > .logo {
+    display: inline-block;
+    width: 30%;
+    margin-left: calc((100% - 99px) / 2);
+} */

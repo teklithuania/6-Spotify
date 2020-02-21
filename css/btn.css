@@ -1,0 +1,16 @@
+.button {
+    display: inline-block;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #fff;
+    margin-top: 40px;
+    margin-bottom: -28px;
+    font-size: 20px;
+    line-height: 30px;
+    border-radius: 20px;
+    margin-left: calc((100% - 88px) / 2);
+    text-decoration: none;
+    cursor: pointer;
+    color: #55E187;
+}
