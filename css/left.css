@@ -4,13 +4,11 @@
     width: 45%;
     font-weight: bold;
     background-image: url(..//img/green-powerpoint-slide-template.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     position: relative;
-    background-color: violet;
+    background-color: green;
+    color: #FFF;
 }
     .container > .left > h1 {
         display: inline-block;
@@ -18,14 +16,12 @@
         padding-top: 100px;
         padding-bottom: 5px;
         text-align: center;
-        color: #ffffff;
     }
     .container > .left > .premium {
         display: inline-block;
         width: 100%;
         font-size: 28px;
         text-align: center;
-        color: #ffffff;
     }
     .container > .left > .dollar {
         display: inline-block;
@@ -33,7 +29,6 @@
         font-size: 28px;
         line-height: 45px;
         text-align: right;
-        color: #ffffff;
     }
     .container > .left > .dolar {
         display: inline-block;
@@ -43,7 +38,6 @@
         margin-top: 4px;
         margin-bottom: -2px;
         text-align: left;
-        color: #ffffff;
     }
     .container > .left > .bullets {
         display: inline-block;
@@ -52,40 +46,35 @@
         line-height: 40px;
         list-style: none;
         text-align: justify;
-        color: #ffffff;
+    }
+    .day,
+    a,
+    span{
+        font-size: 15px;
+        line-height: 18px;
     }
     .container > .left > .day {
         display: inline-block;
         width: 70%;
         margin-left: 30%;
         font-weight: 2;
-        font-size: 15px;
-        line-height: 18px;
         padding-top: 5px;
         text-align: justify;
-        color: #ffffff;
     }
     .container > .left > a {
         display: inline-block;
         padding: 5px;
-        font-size: 15px;
-        line-height: 18px;
         text-decoration: none;
         color: #ffffff;
     }
     .container > .left > .central {
-        /* display: inline-block;
-        width: calc((100% - 269px) / 2); */
         margin-left: 130px;
     }
     .container > .left > span {
         display: inline-block;
         padding: 5px;
-        font-size: 15px;
-        line-height: 18px;
         text-align: center;
         font-weight: lighter;
-        color: #ffffff;
     }
     .container > .left > .lorem {
         display: inline-block;
@@ -96,5 +85,4 @@
         font-size: 12px;
         font-weight: 2;
         text-align-last: left;
-        color: #ffffff;
     }
