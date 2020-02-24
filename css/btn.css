@@ -1,8 +1,8 @@
 .button {
     display: inline-block;
-    padding: 3px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
     background-color: #fff;
     margin-top: 20px;
     margin-bottom: -28px;
@@ -11,6 +11,7 @@
     border-radius: 20px;
     margin-left: calc((100% - 88px) / 2);
     text-decoration: none;
+    text-transform: capitalize;
     cursor: pointer;
-    color: #55E187;
+    color: chartreuse;
 }
