@@ -11,9 +11,9 @@
     top: 0;
 	bottom: 0;
 }
-.container > .right >.logo {
-    display: inline-block;
-    padding-top: 20px;
-    padding-bottom: 60px;
-    width: 50%;
-}
+    .container > .right >.logo {
+        display: inline-block;
+        padding-top: 20px;
+        padding-bottom: 60px;
+        width: 50%;
+    }
